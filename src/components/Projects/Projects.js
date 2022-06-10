@@ -29,7 +29,7 @@ function Projects() {
               imgPath={Project1}
               isBlog={false}
               title="Mr-tutor"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="Used: React, JavaScript, BootstrapCSS, Firebase Authentication"
               link="https://mr-tutor-e4f3b.web.app"
             />
           </Col>
@@ -39,7 +39,7 @@ function Projects() {
               imgPath={Project2}
               isBlog={false}
               title="fresh-fruits"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Used: React, JavaScript, BootstrapCSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js"
               link="https://fresh-fruits-f5235.web.app"
             />
           </Col>
@@ -49,8 +49,7 @@ function Projects() {
               imgPath={Project3}
               isBlog={false}
               title="Drill-machine-tools"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Used: React, JavaScript, TailWind CSS, Firebase Authentication, Heroku, MongoDB, Node.js, Express.js"
               link="https://drill-machine-tools.web.app"
             />
           </Col>
