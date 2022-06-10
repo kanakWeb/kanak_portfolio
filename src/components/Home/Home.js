@@ -4,10 +4,11 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import ResumeNew from "../Resume/ResumeNew";
 import Home2 from "./Home2";
 import pdf from "../Resume/Kanak Chandra(Resume).pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Type from "./Type";
+
 
 function Home() {
   return (
@@ -44,7 +45,10 @@ function Home() {
             </Col>
             
           </Row>
-          <Row style={{ justifyContent: "center", position: "relative" }}>
+          
+        </Container>
+      </Container>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -52,13 +56,9 @@ function Home() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
-          
-        </Container>
-      </Container>
-      
       <Home2 />
       
     </section>
