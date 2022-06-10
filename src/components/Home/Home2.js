@@ -22,10 +22,12 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C, Javascript and Python. </b>
-              </i>
+              <br />I’m a fresh graduate student at Daffodil International University, Dhaka Bangladesh majoring in 
+Computer Science and Engineering. I have some technical and analytical skills acquired by pursing 
+my degree also have some knowledge working across the Jr.Font-end web development proficient in 
+front end. I’m looking for a role where I can contribute my knowledge also grow and learn from 
+other experienced team members.
+
               <br />
               <br />
               My field of Interest's are building new &nbsp;
