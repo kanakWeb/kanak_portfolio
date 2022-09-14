@@ -10,6 +10,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Type from "./Type";
 
 
+
 function Home() {
   return (
     <section>
@@ -48,8 +49,7 @@ function Home() {
           
         </Container>
       </Container>
-      <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+      <Button
             variant="primary"
             href={pdf}
             target="_blank"
@@ -58,7 +58,6 @@ function Home() {
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
-        </Row>
       <Home2 />
       
     </section>
